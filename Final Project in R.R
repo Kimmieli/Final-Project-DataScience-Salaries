@@ -1,0 +1,8 @@
+Salary2 = subset(Data_Science_Salaries_cleaned_2021, select = -c(1:23, 40:42))
+salary3 <- as.matrix(Salary2)
+heatmap(salary3)
+install.packages('treemap')
+library(treemap)
+treemap(Data_Science_Salaries_cleaned_2021, index=c("Type of ownership"), vSize="Avg Salary(K)", type="index")
+treemap(Data_Science_Salaries_cleaned_2021, index=c("Sector"), vSize = "Lower Salary", type = "index")
+treemap(Data_Science_Salaries_cleaned_2021, index=c("Sector"), vSize = "Upper Salary", type = "index")
