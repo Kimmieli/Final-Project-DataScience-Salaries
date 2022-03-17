@@ -83,5 +83,16 @@ library("tidyr")
 library("lmtest")
 library("popbio")
 library("e1071")
-salarieslogit <- glm(Python ~ NewSector, data = Data.Science.Salaries._cleaned.2021, family = "binomial")
+salarieslogit <- glm(NewSector ~ Python, data = Data.Science.Salaries._cleaned.2021, family = "binomial")
+probabilities <- predict(salarieslogit, type = "response")
 
+install.packages("qpcR")
+library("qpcR")
+bindSalaries <- qpcR:::cbind.na(Data.Science.Salaries._cleaned.2021, probabilities)
+bindSalaries
+newBindSalaries <- na.omit(bindSalaries)
+newBindSalaries$Predicted <- ifelse(probabilities > .5, "yes", "no")
+
+FitAll= lm(NewSector ~ Python + spark + aws + excel + sql + sas + keras + pytorch + scikit + tensor + hadoop + tableau + bi + flink + mongo + google_an, data = bindSalaries)
+summary(FitAll)
+step(FitAll, direction = 'backward')
