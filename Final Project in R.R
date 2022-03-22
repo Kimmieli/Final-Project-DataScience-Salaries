@@ -90,8 +90,9 @@ install.packages("qpcR")
 library("qpcR")
 bindSalaries <- qpcR:::cbind.na(Data.Fram.in.Excel.Data.Science.Salaries.2021, probabilities)
 bindSalaries
-newBindSalaries <- na.omit(bindSalaries)
-newBindSalaries$Predicted <- ifelse(probabilities > .5, "yes", "no")
+
+
+# Ran a stepwise of means of skills.  Which had significance to where it can be compared to the other skills.
 
 FitAll= lm(NewSector ~ Python + spark + aws + excel + sql + sas + keras + pytorch + scikit + tensor + hadoop + tableau + bi + flink + mongo + google_an, data = bindSalaries)
 summary(FitAll)
