@@ -12,6 +12,10 @@ library(treemap)
 
 Salary2 = subset(Data.Fram.in.Excel.Data.Science.Salaries.2021, select = -c(1:23, 40:42))
 salary3 <- as.matrix(Salary2)
+str(Salary2$NewSector)
+Salary2$NewSector <- as.numeric(Salary2$NewSector)
+str(Salary2$NewSector)
+str(Salary2$Python)
 heatmap(salary3)
 
 treemap(Data.Fram.in.Excel.Data.Science.Salaries.2021, index=c("Type.of.ownership"), vSize="Avg.Salary.K.", type="index")
@@ -99,3 +103,5 @@ summary(FitAll)
 step(FitAll, direction = 'backward')
 fitSome = lm(NewSector ~ spark + aws + tensor + bi + mongo + google_an, data = bindSalaries)
 summary(fitSome)
+
+
