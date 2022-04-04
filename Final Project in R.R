@@ -15,40 +15,25 @@ salary3 <- as.matrix(Salary2)
 str(Salary2$NewSector)
 Salary2$NewSector <- as.numeric(Salary2$NewSector)
 str(Salary2$NewSector)
+Salary2$Python <- as.numeric(Salary2$Python)
 str(Salary2$Python)
 heatmap(salary3)
+install.packages('pheatmap')
+library(pheatmap)
+pheatmap(salary3, cutree_rows = 4)
+install.packages('gplots')
+library("gplots")
+heatmap.2(salary3, scale = "none", col = bluered(100), 
+          trace = "none", density.info = "none")
+
+## This heat nap gives the information of how the skills are influenced by salaries. Does the Salary make the skill more important.
 
 treemap(Data.Fram.in.Excel.Data.Science.Salaries.2021, index=c("Type.of.ownership"), vSize="Avg.Salary.K.", type="index")
 treemap(Data.Fram.in.Excel.Data.Science.Salaries.2021, index=c("Sector"), vSize = "Lower.Salary", type = "index")
 treemap(Data.Fram.in.Excel.Data.Science.Salaries.2021, index=c("Sector"), vSize = "Upper.Salary", type = "index")
 
 
-Data_Science_Salaries_cleaned_2021$NewSector <- NA
-Data_Science_Salaries_cleaned_2021$NewSector[Data_Science_Salaries_cleaned_2021$NewSector=='Information Technology'] <- 1
-Data_Science_Salaries_cleaned_2021$NewSector[Data_Science_Salaries_cleaned_2021$NewSector=='Biotech & Pharmaceuticals'] <- 2
-Data_Science_Salaries_cleaned_2021$NewSector[Data_Science_Salaries_cleaned_2021$NewSector=='Business Services']<- 3
-Data_Science_Salaries_cleaned_2021$NewSector[Data_Science_Salaries_cleaned_2021$NewSector=='Insurance'] <- 4
-Data_Science_Salaries_cleaned_2021$NewSector[Data_Science_Salaries_cleaned_2021$NewSector=='Health Care'] <- 5
-Data_Science_Salaries_cleaned_2021$NewSector[Data_Science_Salaries_cleaned_2021$NewSector=='Finance'] <- 6
-Data_Science_Salaries_cleaned_2021$NewSector[Data_Science_Salaries_cleaned_2021$NewSector=='Manufacturing'] <- 7
-Data_Science_Salaries_cleaned_2021$NewSector[Data_Science_Salaries_cleaned_2021$NewSector=='Aerospace & Defense'] <- 8
-Data_Science_Salaries_cleaned_2021$NewSector[Data_Science_Salaries_cleaned_2021$NewSector=='Education'] <- 9
-Data_Science_Salaries_cleaned_2021$NewSector[Data_Science_Salaries_cleaned_2021$NewSector=='Retail'] <- 10
-Data_Science_Salaries_cleaned_2021$NewSector[Data_Science_Salaries_cleaned_2021$NewSector=='Oil,Gas, Energy & Utlities'] <- 11
-Data_Science_Salaries_cleaned_2021$NewSector[Data_Science_Salaries_cleaned_2021$NewSector=='Government'] <- 12
-Data_Science_Salaries_cleaned_2021$NewSector[Data_Science_Salaries_cleaned_2021$NewSector=='-1'] <- 13
-Data_Science_Salaries_cleaned_2021$NewSector[Data_Science_Salaries_cleaned_2021$NewSector=='Non-Profit'] <- 14
-Data_Science_Salaries_cleaned_2021$NewSector[Data_Science_Salaries_cleaned_2021$NewSector=='Transportation & Logistics'] <- 15
-Data_Science_Salaries_cleaned_2021$NewSector[Data_Science_Salaries_cleaned_2021$NewSector=='Real Estate'] <- 16
-Data_Science_Salaries_cleaned_2021$NewSector[Data_Science_Salaries_cleaned_2021$NewSector=='Travel & Tourism'] <- 17
-Data_Science_Salaries_cleaned_2021$NewSector[Data_Science_Salaries_cleaned_2021$NewSector=='Telecommunications'] <- 18
-Data_Science_Salaries_cleaned_2021$NewSector[Data_Science_Salaries_cleaned_2021$NewSector=='Media'] <- 19
-Data_Science_Salaries_cleaned_2021$NewSector[Data_Science_Salaries_cleaned_2021$NewSector=='Arts, Entertainment & Recreation'] <- 20
-Data_Science_Salaries_cleaned_2021$NewSector[Data_Science_Salaries_cleaned_2021$NewSector=='Consumer'] <- 21
-Data_Science_Salaries_cleaned_2021$NewSector[Data_Science_Salaries_cleaned_2021$NewSector=='Mining & Metals'] <- 22
-Data_Science_Salaries_cleaned_2021$NewSector[Data_Science_Salaries_cleaned_2021$NewSector=='Construction, Repair & Maintenance'] <- 23
-Data_Science_Salaries_cleaned_2021$NewSector[Data_Science_Salaries_cleaned_2021$NewSector=='Agriculture & Forestry'] <- 24
-Data_Science_Salaries_cleaned_2021$NewSector[Data_Science_Salaries_cleaned_2021$NewSector=='Accounting & Legal'] <- 25
+
 
 library(dplyr)
 Data.Fram.in.Excel.Data.Science.Salaries.2021 <- subset (Data.Fram.in.Excel.Data.Science.Salaries.2021, select = -NewSector)
