@@ -12,4 +12,8 @@ https://github.com/Kimmieli/Final-Project-DataScience-Salaries
 > ## What made this Dataset interesting?
 > We wanted to kmow how much being a Data Analyst would make, how much our potential salary would be, how different each level of Data Science education is, if location made a difference, and if our skill set would affect our salary?
 > # Week 3 Analyzing our data
-> 
+> The programs used were 
+> - Python 
+> - R 
+> - Tableau 
+> - Excel
