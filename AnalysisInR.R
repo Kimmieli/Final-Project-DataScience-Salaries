@@ -18,7 +18,7 @@ library("lmtest")
 
 
 #Loading Dataset
-Salaries = read.csv ("C:/Users/abiak/Documents/GitHub/Final-Project-DataScience-Salaries/Data Science Salaries _cleaned 2021.csv")
+Salaries = Data.Fram.in.Excel.Data.Science.Salaries.2021
 
 View (Salaries)
 
@@ -31,8 +31,7 @@ colnames(Salaries)
 df <- c("Avg.Salary.K.","Age")
 Salaries1 <- Salaries[df]
 
-View (Salaries1)
-
+ 
 ## TESTING FOR ASSUMPTIONS
 
 #1. Testing for Linearity
