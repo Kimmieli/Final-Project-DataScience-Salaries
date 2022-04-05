@@ -10,13 +10,8 @@ library(treemap)
 
 
 
-Salary2 = subset(Data.Fram.in.Excel.Data.Science.Salaries.2021, select = -c(1:23, 40:42))
+Salary2 = subset(Data.Fram.in.Excel.Data.Science.Salaries.2021, select = -c(1:23, 40:46))
 salary3 <- as.matrix(Salary2)
-str(Salary2$NewSector)
-Salary2$NewSector <- as.numeric(Salary2$NewSector)
-str(Salary2$NewSector)
-Salary2$Python <- as.numeric(Salary2$Python)
-str(Salary2$Python)
 heatmap(salary3)
 install.packages('pheatmap')
 library(pheatmap)
@@ -36,7 +31,6 @@ treemap(Data.Fram.in.Excel.Data.Science.Salaries.2021, index=c("Sector"), vSize 
 
 
 library(dplyr)
-Data.Fram.in.Excel.Data.Science.Salaries.2021 <- subset (Data.Fram.in.Excel.Data.Science.Salaries.2021, select = -NewSector)
 
 Data.Fram.in.Excel.Data.Science.Salaries.2021$NewSector[Data.Fram.in.Excel.Data.Science.Salaries.2021$Sector=='Information Technology'] <- "1"
 Data.Fram.in.Excel.Data.Science.Salaries.2021$NewSector[Data.Fram.in.Excel.Data.Science.Salaries.2021$Sector=='Biotech & Pharmaceuticals'] <- "2"
