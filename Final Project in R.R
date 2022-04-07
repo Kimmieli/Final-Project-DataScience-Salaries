@@ -10,23 +10,13 @@ library(treemap)
 
 
 
-Salary2 = subset(Data.Fram.in.Excel.Data.Science.Salaries.2021, select = -c(1:23, 40:46))
-salary3 <- as.matrix(Salary2)
-heatmap(salary3)
-install.packages('pheatmap')
-library(pheatmap)
-pheatmap(salary3, cutree_rows = 4)
-install.packages('gplots')
-library("gplots")
-heatmap.2(salary3, scale = "none", col = bluered(100), 
-          trace = "none", density.info = "none")
-
-## This heat nap gives the information of how the skills are influenced by salaries. Does the Salary make the skill more important.
 
 treemap(Data.Fram.in.Excel.Data.Science.Salaries.2021, index=c("Type.of.ownership"), vSize="Avg.Salary.K.", type="index")
 treemap(Data.Fram.in.Excel.Data.Science.Salaries.2021, index=c("Sector"), vSize = "Lower.Salary", type = "index")
 treemap(Data.Fram.in.Excel.Data.Science.Salaries.2021, index=c("Sector"), vSize = "Upper.Salary", type = "index")
-
+# The tree maps show how much more money one would have by the type of Company.  There is more money working for a private company and a public company
+# The Tree map also show is if there is a difference in salary between sectors.  There is not much of a difference in salary change lower and uppper. 
+## The top 5 sectors that make the most are in IT, Biotech & Phafmaceuticals, Business, Insurance, and Finance.
 
 
 
@@ -75,7 +65,7 @@ bindSalaries <- qpcR:::cbind.na(Data.Fram.in.Excel.Data.Science.Salaries.2021, p
 bindSalaries
 
 
-# Ran a stepwise of means of skills.  Which had significance to where it can be compared to the other skills.
+# Ran a stepwise of means of skills. There was significance to where it can be compared to the other skills.
 
 FitAll= lm(NewSector ~ Python + spark + aws + excel + sql + sas + keras + pytorch + scikit + tensor + hadoop + tableau + bi + flink + mongo + google_an, data = bindSalaries)
 summary(FitAll)
@@ -83,6 +73,8 @@ step(FitAll, direction = 'backward')
 fitSome = lm(NewSector ~ spark + aws + tensor + bi + mongo + google_an, data = bindSalaries)
 summary(fitSome)
 
+# Ater the stepswise the results were  that there was significance to if the skills of: spark, aws, tensor, bi, mongo, google_an; was either an important skill for the sector or not. 
+## If we were to run a pobability test these skills will make a difference on what skills make a difference between sectors.
 
 library('rcompanion')
 library('car')
@@ -93,10 +85,12 @@ library('dplyr')
 library('psych')
 
 
-## DATA WRANGLING
+## DATA WRANGLING for ANCOVA
+## Question to answer:  If a person looking for a job had a certain skill in data science, 
+## does the Sector depend on where the job is located?
 
 keeps <- c("Python", "spark", "aws", "sas", "keras", "scikit", "flink", "mongo", "excel", "sql", "pytorch", "tensor", "hadoop", "tableau", "bi", "google_an", "Location", "Sector")
-dataKeep = Data.Science.Salaries._cleaned.2021[keeps]
+dataKeep = Data.Fram.in.Excel.Data.Science.Salaries.2021[keeps]
 
 
 dataKeep2 <- head(dataKeep, 25)
@@ -110,9 +104,10 @@ dataKeep2$Sector <- as.integer(as.factor(dataKeep2$Sector))
 plotNormalHistogram(dataKeep2$Location)
 dataLocation.plot <- sqrt(dataKeep2$Location)
 plotNormalHistogram(dataLocation.plot)
+# This plot shows normal distribution of skills by location.  
 
 plotNormalHistogram((dataKeep2$Sector))
-
+# This plot shows normal distribution of skills by Sector.
 
 # Test for Homogeneity of Variance
 
@@ -130,11 +125,12 @@ str(dataKeep2$Python)
 
 leveneTest(dataLocation.plot ~ Sector, data = dataKeep2)
 ## This test had no significance. P-value - .2203 which is greater than .05.
+## There is no variance to where the skills one might have in a Sector in any location.
 
 ##Test for Homogeneity of Regression Slopes
 Homogeneity_RegrSlp = lm(dataLocation.plot ~ Python, data = dataKeep2)
 anova(Homogeneity_RegrSlp)
-### The P-value is not significant, so we can state that depending on if you have the skill of Python, it will not influence
+### The P-value is .5888, not significant. We can state that depending on if you have the skill of Python, it will not influence
 ### where the job is located.
 
 #RUNNING THE ANCOVA ANALYSIS
@@ -142,8 +138,7 @@ ANCOVA = lm(dataLocation.plot ~ Python + Sector*Python, data = dataKeep2)
 anova(ANCOVA)
 ## The test was not significant.  So having the skill 'Python' does not have any impact on
 ## which sector of a company in any location.
-dataLocation.plot2 <- as.factor(dataLocation.plot)
-rm(dataLocation.plot2)
+
 
 
 #Final Project Analysis- Data Scientist Salaries
@@ -164,7 +159,6 @@ library("lmtest")
 
 
 #Loading Dataset
-Salaries = read.csv ("C:/Users/abiak/Documents/GitHub/Final-Project-DataScience-Salaries/Data Science Salaries _cleaned 2021.csv")
 
 View (Salaries)
 
@@ -184,14 +178,17 @@ View (Salaries1)
 #1. Testing for Linearity
 
 scatter.smooth(x=Salaries1$Avg.Salary.K., y=Salaries1$Age, main="Age of Company by Average Salary")
-
+# This plot shows that the Age of the company does not affect the growth of salary.  
+# It shows that companies that have a higher age will not have as many high paying jobs as those that may be younger in age.  
+# The steady salary are of companies less than 50 years old, and have a range of 50 to 150 thousand in salary.
 # Assumption for Linearity not met.
 
 #2. Testing for Homoscedasticity
 
-#Create a linear model
+#Create a linear model. Showing Residual Analysis
 
 lmMod <- lm(Age~`Avg.Salary.K.` + Rating, data=Salaries)
+# There is an inference of Heteroscedasticity, the residuals seem to increase as the fitted Y values increase.
 
 #Creating a series of graphs to test for homoscedasticity.
 par(mfrow=c(2,2))
@@ -199,11 +196,11 @@ plot(lmMod)
 
 #Another Test for homoscedasticity with the Breush-Pagan test
 lmtest::bptest(lmMod)
-
+## This p-value is significant at .0009. This not Homoscedasticity.
 
 #As an alternative for testing homoscedasticity- The NCV Approach
 car::ncvTest(lmMod)
-
+ 
 #Interpretation: data is heteroscedastic,since p.value is significant for the NCV Test ,assumption of homoscedasticity not met.
 
 #Using Box-Cox to transform the Dependent Variable (Correcting for Homoscedasticity)
@@ -230,18 +227,19 @@ gvlma(lmMod2)
 #In X Space using Cook's Distance
 CookD(lmMod, group=NULL, plot=TRUE, idn=3, newwd=TRUE)
 
-#Outliers in Rows 179,271,and 504
+#Outliers in Rows 179,271,and 504. These were the values that did not fit the norm.
 
 #Test for leverage
 lev = hat(model.matrix(lmMod))
 plot(lev)
 
 Salaries2[lev>.2,]
+# According to the plot, there are extreme values in x space that are outliers.
 
 #Testing for Outliers in the y-space
 car::outlierTest(lmMod)
 
-#p.values < 0.05 which means there are outliers in the y-space
+# p.values < 0.05 which means there are outliers in the y-space.
 
 #Testing for Outliers in both the x and y space
 summary(influence.measures(lmMod))
@@ -323,9 +321,11 @@ car::outlierTest(lmMod)
 #Testing for Outliers in both the x and y space
 summary(influence.measures(lmMod))
 
-#No outlier above 0.2
+# There are extreme values in the x and y space.  
+
 
 #Running and Interpreting the Analysis
 summary (lmMod)
+# Linear regression  p-value of .6881 is not significant when comparing age of the company to avg salary and rating.
 
 
