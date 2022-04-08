@@ -15,5 +15,12 @@ https://github.com/Kimmieli/Final-Project-DataScience-Salaries
 > The programs used were 
 > - Python 
 > - R 
-> - Tableau 
+> - Tableau - https://public.tableau.com/views/HighlightJobtitle2/Interactivemapofjobtitle?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link 
+
 > - Excel
+> # Week 4 The Visuals and confirming assumptions
+> We started our power point and added the visuals that were created in Tableau, excel, and R.
+> ![Ownership](https://user-images.githubusercontent.com/90582457/162350408-f9f52300-5c33-4bf6-9762-12a5bf56d045.png)
+![Rplot01](https://user-images.githubusercontent.com/90582457/162350572-3305e3b7-0bb0-46bc-8ca9-2a36a5ab8a38.png)
+
+
