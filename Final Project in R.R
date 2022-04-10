@@ -139,6 +139,55 @@ anova(ANCOVA)
 ## The test was not significant.  So having the skill 'Python' does not have any impact on
 ## which sector of a company in any location.
 
+keepsP2 <- c("spark", "aws", "tensor","bi", "mongo", "google_an", "Location", "Sector")
+dataKeep2 = Data.Fram.in.Excel.Data.Science.Salaries.2021[keepsP2]
+
+
+dataKeepA <- head(dataKeep2, 25)
+dataKeepA$Location <- as.integer(as.factor(dataKeepA$Location))
+dataKeepA$Sector <- as.integer(as.factor(dataKeepA$Sector))
+
+# TESTING ASSUMPTIONS
+# Plot Nornmality
+
+
+plotNormalHistogram(dataKeepA$Location)
+dataLocation2.plot <- sqrt(dataKeepA$Location)
+plotNormalHistogram(dataLocation2.plot)
+# This plot shows normal distribution of skills by location.  
+
+plotNormalHistogram((dataKeepA$Sector))
+# This plot shows normal distribution of skills by Sector.
+
+# Test for Homogeneity of Variance
+
+str(dataKeepA$Location)
+dataKeepA$Location <- as.factor(dataKeepA$Location)
+str(dataKeepA$Location)
+
+str(dataKeepA$Sector)
+dataKeepA$Sector <- as.factor(dataKeepA$Sector)
+str(dataKeepA$Sector)
+
+str(dataKeepA$Python)
+dataKeepA$Python <- as.factor(dataKeepA$Python)
+str(dataKeepA$Python)
+
+leveneTest(dataLocation2.plot ~ Sector, data = dataKeepA)
+## This test had no significance. P-value - .2203 which is greater than .05.
+## There is no variance to where the skills one might have in a Sector in any location.
+
+##Test for Homogeneity of Regression Slopes
+Homogeneity_RegrSlp1 = lm(dataLocation2.plot ~ spark, data = dataKeepA)
+anova(Homogeneity_RegrSlp1)
+### The P-value is 1.2493, not significant. We can state that depending on if you have the skill of spark, it will not influence
+### where the job is located.
+
+#RUNNING THE ANCOVA ANALYSIS
+ANCOVA = lm(dataLocation2.plot ~ aws + Sector*spark, data = dataKeepA)
+anova(ANCOVA)
+## Not Significant Again.
+
 
 
 #Final Project Analysis- Data Scientist Salaries
