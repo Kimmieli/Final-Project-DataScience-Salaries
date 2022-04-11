@@ -169,8 +169,8 @@ str(dataKeepA$Sector)
 dataKeepA$Sector <- as.factor(dataKeepA$Sector)
 str(dataKeepA$Sector)
 
-str(dataKeepA$Python)
-dataKeepA$Python <- as.factor(dataKeepA$Python)
+str(dataKeepA$spark)
+dataKeepA$Python <- as.factor(dataKeepA$spark)
 str(dataKeepA$Python)
 
 leveneTest(dataLocation2.plot ~ Sector, data = dataKeepA)
