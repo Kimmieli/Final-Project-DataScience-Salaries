@@ -1,265 +1,743 @@
-,s_count,per,per100
-Data Scientist,131,0.176549865,17.70%
-Data Engineer,53,0.071428571,7.10%
-Senior Data Scientist,34,0.045822102,4.60%
-Data Analyst,15,0.020215633,2.00%
-Senior Data Engineer,14,0.018867925,1.90%
-Senior Data Analyst,12,0.016172507,1.60%
-Lead Data Scientist,8,0.010781671,1.10%
-Marketing Data Analyst,6,0.008086253,0.80%
-Sr. Data Engineer,6,0.008086253,0.80%
-Machine Learning Engineer,5,0.006738544,0.70%
-Principal Data Scientist,5,0.006738544,0.70%
-R&D Specialist/ Food Scientist,4,0.005390836,0.50%
-Medical Laboratory Scientist,4,0.005390836,0.50%
-Research Scientist,4,0.005390836,0.50%
-Senior Research Scientist-Machine Learning,4,0.005390836,0.50%
-MED TECH/LAB SCIENTIST- SOUTH COASTAL LAB,4,0.005390836,0.50%
-Analytics Manager - Data Mart,4,0.005390836,0.50%
-Food Scientist - Developer,4,0.005390836,0.50%
-Staff Scientist-Downstream Process Development,4,0.005390836,0.50%
-Sr. Data Engineer - Contract-to-Hire (Java),4,0.005390836,0.50%
-Sr. Scientist Method Development,3,0.004043127,0.40%
-"Project Scientist - Auton Lab, Robotics Institute",3,0.004043127,0.40%
-"Scientist, Molecular/Cellular Biologist",3,0.004043127,0.40%
-"Associate Scientist, LC/MS Biologics",3,0.004043127,0.40%
-Revenue Analytics Manager,3,0.004043127,0.40%
-IT - Data Engineer II,3,0.004043127,0.40%
-"Research Scientist, Immunology - Cancer Biology",3,0.004043127,0.40%
-Scientist - Biomarker and Flow Cytometry,3,0.004043127,0.40%
-Senior Scientist - Regulatory Submissions,3,0.004043127,0.40%
-ENVIRONMENTAL ENGINEER/SCIENTIST,3,0.004043127,0.40%
-Senior Data Science Systems Engineer,3,0.004043127,0.40%
-Senior Insurance Data Scientist,3,0.004043127,0.40%
-Associate Data Analyst- Graduate Development Program,3,0.004043127,0.40%
-Scientist - Analytical Services,3,0.004043127,0.40%
-"Principal Scientist, Chemistry & Immunology",3,0.004043127,0.40%
-"Director II, Data Science - GRM Actuarial",3,0.004043127,0.40%
-"Scientist/Senior Scientist, Autoimmune",3,0.004043127,0.40%
-Clinical Data Analyst,3,0.004043127,0.40%
-Staff Data Engineer,3,0.004043127,0.40%
-Consultant - Analytics Consulting,3,0.004043127,0.40%
-Lead Data Engineer,3,0.004043127,0.40%
-"Principal Scientist, Hematology",3,0.004043127,0.40%
-Staff Machine Learning Engineer,3,0.004043127,0.40%
-Software Engineer - Data Visualization,3,0.004043127,0.40%
-Senior Data Scientist - R&D Oncology,3,0.004043127,0.40%
-Principal Data Scientist (Computational Chemistry),3,0.004043127,0.40%
-Senior Scientist (Neuroscience),3,0.004043127,0.40%
-Machine Learning Engineer - Regulatory,3,0.004043127,0.40%
-"Scientist, Bacteriology",3,0.004043127,0.40%
-"Associate Director, Platform and DevOps- Data Engineering and Aritifical Intelligence",3,0.004043127,0.40%
-Clinical Laboratory Scientist,3,0.004043127,0.40%
-Information Security Data Analyst,3,0.004043127,0.40%
-Sr. Data Analyst,3,0.004043127,0.40%
-Data Science Manager,3,0.004043127,0.40%
-Scientist,3,0.004043127,0.40%
-Staff Scientist- Upstream PD,2,0.002695418,0.30%
-"Sr Expert Data Science, Advanced Visual Analytics (Associate level)",2,0.002695418,0.30%
-Sr Data Analyst - IT,2,0.002695418,0.30%
-Associate Machine Learning Engineer / Data Scientist May 2020 Undergrad,2,0.002695418,0.30%
-Senior Scientist - Biostatistician,2,0.002695418,0.30%
-Senior Data Scientist Oncology,2,0.002695418,0.30%
-"Associate Principal Scientist, Pharmacogenomics",2,0.002695418,0.30%
-Data Scientist - Systems Engineering,2,0.002695418,0.30%
-Data Engineer - Consultant (Charlotte Based),2,0.002695418,0.30%
-"Data Analyst 1, full-time contract worker for up to 12 months",2,0.002695418,0.30%
-"Scientist, Immuno-Oncology",2,0.002695418,0.30%
-Products Data Analyst II,2,0.002695418,0.30%
-Lead Data Analyst,2,0.002695418,0.30%
-Data Science Engineer - Mobile,2,0.002695418,0.30%
-IT Associate Data Analyst,2,0.002695418,0.30%
-"Scientist, Pharmacometrics",2,0.002695418,0.30%
-Business Data Analyst,2,0.002695418,0.30%
-"Principal, Data Science - Advanced Analytics",2,0.002695418,0.30%
-Data Science Project Manager,2,0.002695418,0.30%
-"Sr Scientist, Immuno-Oncology - Oncology",2,0.002695418,0.30%
-Data Analytics Project Manager,2,0.002695418,0.30%
-Scientist Manufacturing - Kentucky BioProcessing,2,0.002695418,0.30%
-"Director - Data, Privacy and AI Governance",2,0.002695418,0.30%
-Staff BI and Data Engineer,2,0.002695418,0.30%
-Associate Data Engineer,2,0.002695418,0.30%
-Research Scientist – Security and Privacy,2,0.002695418,0.30%
-Market Data Analyst,2,0.002695418,0.30%
-Product Engineer – Data Science,2,0.002695418,0.30%
-Computational Chemist/Data Scientist,2,0.002695418,0.30%
-Director Data Science,2,0.002695418,0.30%
-Senior Research Analytical Scientist-Non-Targeted Analysis,2,0.002695418,0.30%
-Systems Engineer II - Data Analyst,2,0.002695418,0.30%
-Product Engineer – Spatial Data Science and Statistical Analysis,2,0.002695418,0.30%
-Managing Data Scientist/ML Engineer,2,0.002695418,0.30%
-"Technology-Minded, Data Professional Opportunities",2,0.002695418,0.30%
-Salesforce Analytics Consultant,2,0.002695418,0.30%
-Scientist Manufacturing Pharma - Kentucky BioProcessing,2,0.002695418,0.30%
-Sr Data Engineer (Sr BI Developer),2,0.002695418,0.30%
-"Associate, Data Science, Internal Audit",2,0.002695418,0.30%
-Associate Environmental Scientist - Wildlife Biologist,2,0.002695418,0.30%
-Data Modeler - Data Solutions Engineer,2,0.002695418,0.30%
-"Marketing Data Analyst, May 2020 Undergrad",2,0.002695418,0.30%
-Corporate Risk Data Analyst (SQL Based) - Milwaukee or,2,0.002695418,0.30%
-"Senior Manager, Epidemiologic Data Scientist",2,0.002695418,0.30%
-"Enterprise Architect, Data",2,0.002695418,0.30%
-Lead Big Data Engineer,2,0.002695418,0.30%
-Sr Software Engineer (Data Scientist),2,0.002695418,0.30%
-Senior Scientist - Toxicologist - Product Integrity (Stewardship),2,0.002695418,0.30%
-Sr. Data Engineer (ETL Developer),2,0.002695418,0.30%
-Senior Data Scientist Artificial Intelligence,2,0.002695418,0.30%
-Analytics - Business Assurance Data Analyst,2,0.002695418,0.30%
-"Associate Director/Director, Safety Scientist",2,0.002695418,0.30%
-"Senior Scientist, Cell Pharmacology/Assay Development",2,0.002695418,0.30%
-Data Analyst Senior,2,0.002695418,0.30%
-Lead Data Engineer (Python),2,0.002695418,0.30%
-Senior Data Scientist 4 Artificial Intelligence,2,0.002695418,0.30%
-Medical Lab Scientist - MLT,2,0.002695418,0.30%
-"Senior Operations Data Analyst, Call Center Operations",2,0.002695418,0.30%
-"Director II, Data Science - GRS Predictive Analytics",2,0.002695418,0.30%
-RESEARCH COMPUTER SCIENTIST - RESEARCH ENGINEER - SR. COMPUTER SCIENTIST - SOFTWARE DEVELOPMENT,2,0.002695418,0.30%
-Geospatial Software Developer and Data Scientist,2,0.002695418,0.30%
-Senior LiDAR Data Scientist,2,0.002695418,0.30%
-Big Data Engineer,2,0.002695418,0.30%
-Medical Lab Scientist,2,0.002695418,0.30%
-Senior Data & Machine Learning Scientist,2,0.002695418,0.30%
-Radar Data Analyst,2,0.002695418,0.30%
-"VP, Data Science",2,0.002695418,0.30%
-Machine Learning Research Scientist,2,0.002695418,0.30%
-Excel / VBA / SQL Data Analyst,2,0.002695418,0.30%
-Sr. Data Scientist II,2,0.002695418,0.30%
-"Sr. Scientist, Quantitative Translational Sciences",2,0.002695418,0.30%
-MED TECH/LAB SCIENTIST - LABORATORY,2,0.002695418,0.30%
-Principal Data Scientist with over 10 years experience,2,0.002695418,0.30%
-Principal Scientist - Immunologist,2,0.002695418,0.30%
-Sr. Scientist - Digital & Image Analysis/Computational Pathology,2,0.002695418,0.30%
-Digital Marketing & ECommerce Data Analyst,2,0.002695418,0.30%
-Analytics Manager,2,0.002695418,0.30%
-"Scientist, Analytical Development",2,0.002695418,0.30%
-"Risk and Analytics IT, Data Scientist",2,0.002695418,0.30%
-Senior Scientist - Neuroscience,2,0.002695418,0.30%
-Data Engineer 5 - Contract (Remote),2,0.002695418,0.30%
-Staff Data Scientist,2,0.002695418,0.30%
-"Data Scientist (Actuary, FSA or ASA)",2,0.002695418,0.30%
-Pricipal Scientist Molecular and cellular biologist,2,0.002695418,0.30%
-"Sr. Data Scientist - Analytics, Personalized Healthcare (PHC)",2,0.002695418,0.30%
-BI & Platform Analytics Manager,2,0.002695418,0.30%
-PL Actuarial-Lead Data Scientist,2,0.002695418,0.30%
-PV Scientist,2,0.002695418,0.30%
-Data Scientist - Algorithms & Inference,2,0.002695418,0.30%
-Data Scientist - Quantitative,2,0.002695418,0.30%
-"Data Scientist, Office of Data Science",2,0.002695418,0.30%
-College Hire - Data Scientist - Open to December 2019 Graduates,2,0.002695418,0.30%
-Senior Risk Data Scientist,2,0.002695418,0.30%
-Staff Data Scientist - Technology,2,0.002695418,0.30%
-Data Scientist / Machine Learning Expert,2,0.002695418,0.30%
-Clinical Data Scientist,2,0.002695418,0.30%
-Associate Data Analyst,2,0.002695418,0.30%
-Digital Health Data Scientist,2,0.002695418,0.30%
-Senior Data Scientist / Machine Learning,2,0.002695418,0.30%
-Data Scientist in Artificial Intelligence Early Career,2,0.002695418,0.30%
-Data Scientist - Health Data Analytics,2,0.002695418,0.30%
-Customer Data Scientist,2,0.002695418,0.30%
-Data Scientist SR,2,0.002695418,0.30%
-Data Scientist - Alpha Insights,1,0.001347709,0.10%
-Senior Data Scientist - Algorithms,1,0.001347709,0.10%
-Data Engineer - ETL,1,0.001347709,0.10%
-Data Modeler (Analytical Systems),1,0.001347709,0.10%
-Data Science Analyst,1,0.001347709,0.10%
-Data Scientist in Translational Medicine,1,0.001347709,0.10%
-Data Analyst 2 (Missionary Department),1,0.001347709,0.10%
-Supply Chain Data Analyst,1,0.001347709,0.10%
-Spectral Scientist/Engineer,1,0.001347709,0.10%
-Web Data Analyst,1,0.001347709,0.10%
-Data Scientist - Sales,1,0.001347709,0.10%
-"Scientist I/II, Biology",1,0.001347709,0.10%
-Data Engineer I,1,0.001347709,0.10%
-"Senior Data Scientist – Visualization, Novartis AI Innovation Lab",1,0.001347709,0.10%
-Product Manager/Data Evangelist,1,0.001347709,0.10%
-Insurance Financial Data Analyst,1,0.001347709,0.10%
-Senior Data Analyst/Scientist,1,0.001347709,0.10%
-"Scientist – Cancer Discovery, Molecular Assay",1,0.001347709,0.10%
-"Associate Scientist / Sr. Associate Scientist, Antibody Discovery",1,0.001347709,0.10%
-Data Architect / Data Modeler,1,0.001347709,0.10%
-Jr. Data Scientist,1,0.001347709,0.10%
-Data Scientist (Warehouse Automation),1,0.001347709,0.10%
-Scientist - CVRM Metabolism - in vivo pharmacology,1,0.001347709,0.10%
-Sr. Data Engineer | Big Data SaaS Pipeline,1,0.001347709,0.10%
-"Assistant Director/Director, Office of Data Science",1,0.001347709,0.10%
-"Manager, Safety Scientist, Medical Safety & Risk Management",1,0.001347709,0.10%
-Software Engineer Staff Scientist: Human Language Technologies,1,0.001347709,0.10%
-"Clinical Scientist, Clinical Development",1,0.001347709,0.10%
-Quality Control Scientist III- Analytical Development,1,0.001347709,0.10%
-"Senior Engineer, Data Management Engineering",1,0.001347709,0.10%
-"Principal Research Scientist/Team Lead, Medicinal Chemistry - Oncology",1,0.001347709,0.10%
-"Senior Health Data Analyst, Star Ratings",1,0.001347709,0.10%
-Foundational Community Supports Data Analyst,1,0.001347709,0.10%
-"Research Scientist, Machine Learning Department",1,0.001347709,0.10%
-Research Scientist / Principal Research Scientist - Multiphysical Systems,1,0.001347709,0.10%
-Data Analyst Chemist - Quality System Contractor,1,0.001347709,0.10%
-Research Scientist or Senior Research Scientist - Computer Vision,1,0.001347709,0.10%
-Senior Quantitative Analyst,1,0.001347709,0.10%
-Senior Formulations Scientist II,1,0.001347709,0.10%
-"Director, Precision Medicine Clinical Biomarker Scientist",1,0.001347709,0.10%
-Associate Research Scientist I (Protein Expression and Production),1,0.001347709,0.10%
-Software Engineer (Data Scientist/Software Engineer) - SISW - MG,1,0.001347709,0.10%
-Data Scientist Manager,1,0.001347709,0.10%
-Manager of Data Science,1,0.001347709,0.10%
-Data Engineering Analyst,1,0.001347709,0.10%
-Software Data Engineer - College,1,0.001347709,0.10%
-Sr. Scientist II,1,0.001347709,0.10%
-"Data Analyst, Performance Partnership",1,0.001347709,0.10%
-Junior Data Analyst,1,0.001347709,0.10%
-Senior Data Scientist Statistics,1,0.001347709,0.10%
-Senior Spark Engineer (Data Science),1,0.001347709,0.10%
-Senior Research Statistician- Data Scientist,1,0.001347709,0.10%
-"Business Data Analyst, SQL",1,0.001347709,0.10%
-Medical Technologist / Clinical Laboratory Scientist,1,0.001347709,0.10%
-Associate Data Scientist/Computer Scientist,1,0.001347709,0.10%
-Business Intelligence Analyst / Developer,1,0.001347709,0.10%
-System and Data Analyst,1,0.001347709,0.10%
-Data & Analytics Consultant (NYC),1,0.001347709,0.10%
-Big Data Engineer - Chicago - Future Opportunity,1,0.001347709,0.10%
-Survey Data Analyst,1,0.001347709,0.10%
-Lead Health Data Analyst - Front End,1,0.001347709,0.10%
-Healthcare Data Scientist,1,0.001347709,0.10%
-Customer Data Scientist/Sales Engineer,1,0.001347709,0.10%
-Data Operations Lead,1,0.001347709,0.10%
-RESEARCH SCIENTIST - BIOLOGICAL SAFETY,1,0.001347709,0.10%
-"Principal Data Engineer, Data Platform & Insights",1,0.001347709,0.10%
-Senior Data Scientist: Causal & Predictive analytics AI Innovation Lab,1,0.001347709,0.10%
-Program/Data Analyst,1,0.001347709,0.10%
-SQL Data Engineer,1,0.001347709,0.10%
-"Associate Scientist/Scientist, Process Analytical Technology - Small Molecule Analytical Chemistry",1,0.001347709,0.10%
-Staff Scientist,1,0.001347709,0.10%
-"Data Engineer, Data Engineering and Artifical Intelligence",1,0.001347709,0.10%
-CONSULTANT– DATA ANALYTICS GROUP,1,0.001347709,0.10%
-"Data Scientist, Senior",1,0.001347709,0.10%
-"Sr. Data Scientist, Cyber-Security LT Contract",1,0.001347709,0.10%
-MongoDB Data Engineer II,1,0.001347709,0.10%
-Data Scientist - Bioinformatics,1,0.001347709,0.10%
-Principal Machine Learning Scientist,1,0.001347709,0.10%
-Data Analyst / Scientist,1,0.001347709,0.10%
-Data Scientist - Research,1,0.001347709,0.10%
-R&D Data Analysis Scientist,1,0.001347709,0.10%
-Analytics Consultant,1,0.001347709,0.10%
-"Director, Data Science",1,0.001347709,0.10%
-R&D Sr Data Scientist,1,0.001347709,0.10%
-Customer Data Scientist/Sales Engineer (Bay,1,0.001347709,0.10%
-Jr. Business Data Analyst,1,0.001347709,0.10%
-Data Management Specialist,1,0.001347709,0.10%
-E-Commerce Data Analyst,1,0.001347709,0.10%
-Data Engineer I - Azure,1,0.001347709,0.10%
-Insurance Data Scientist,1,0.001347709,0.10%
-Data Modeler,1,0.001347709,0.10%
-"Data Scientist, Rice University",1,0.001347709,0.10%
-Senior Research Scientist - Embedded System Development for DevOps,1,0.001347709,0.10%
-Financial Data Analyst,1,0.001347709,0.10%
-Ag Data Scientist,1,0.001347709,0.10%
-Data Scientist II,1,0.001347709,0.10%
-Project Scientist,1,0.001347709,0.10%
-Data Analytics Manager,1,0.001347709,0.10%
-Senior Machine Learning (ML) Engineer / Data Scientist - Cyber Security Analytics,1,0.001347709,0.10%
-Associate Scientist,1,0.001347709,0.10%
-"Scientist 2, QC Viral Vector",1,0.001347709,0.10%
-Data Scientist/ML Engineer,1,0.001347709,0.10%
-Sr. Data Scientist,1,0.001347709,0.10%
-Data Engineer 4 - Contract,1,0.001347709,0.10%
-Data Analyst - Asset Management,1,0.001347709,0.10%
-Machine Learning Engineer (NLP),1,0.001347709,0.10%
+,job_title_sim
+0,data scientist
+1,data scientist
+2,data scientist
+3,data scientist
+4,data scientist
+5,data scientist
+6,data scientist
+7,data scientist
+8,other scientist
+9,data scientist
+10,data scientist
+11,data scientist
+12,data scientist
+13,analyst
+14,data scientist
+15,data engineer
+16,other scientist
+17,data scientist
+18,data scientist
+19,data scientist
+20,data scientist
+21,data scientist
+22,data scientist
+23,data scientist
+24,data scientist
+25,data scientist
+26,data scientist
+27,analyst
+28,data scientist
+29,data scientist
+30,data scientist
+31,data scientist
+32,data scientist
+33,data scientist
+34,data scientist
+35,analyst
+36,data scientist
+37,data scientist
+38,data scientist
+39,data engineer
+40,analyst
+41,data engineer
+42,data scientist
+43,other scientist
+44,data scientist
+45,data scientist
+46,data scientist
+47,analyst
+48,other scientist
+49,data scientist
+50,data scientist
+51,data scientist
+52,data scientist
+53,data scientist
+54,data scientist
+55,data scientist
+56,data scientist
+57,data scientist
+58,data scientist
+59,data scientist
+60,data scientist
+61,data scientist
+62,data scientist
+63,data scientist
+64,data scientist
+65,data scientist
+66,data scientist
+67,data scientist
+68,data scientist
+69,other scientist
+70,data analitics
+71,data scientist
+72,other scientist
+73,data scientist
+74,data scientist
+75,data scientist
+76,data scientist
+77,other scientist
+78,data scientist
+79,data scientist
+80,data scientist
+81,analyst
+82,data scientist
+83,analyst
+84,data engineer
+85,analyst
+86,data scientist
+87,data scientist
+88,data scientist
+89,na
+90,analyst
+91,other scientist
+92,data scientist
+93,data modeler
+94,analyst
+95,other scientist
+96,data scientist
+97,data scientist
+98,analyst
+99,data scientist
+100,data scientist
+101,data scientist
+102,data scientist
+103,data scientist
+104,data engineer
+105,data scientist
+106,analyst
+107,analyst
+108,other scientist
+109,data scientist
+110,data engineer
+111,data scientist
+112,data scientist
+113,data scientist
+114,data engineer
+115,data scientist
+116,data scientist
+117,data engineer
+118,data scientist
+119,data engineer
+120,data scientist
+121,data scientist
+122,data engineer
+123,data engineer
+124,analyst
+125,other scientist
+126,data scientist
+127,Data scientist project manager
+128,data scientist
+129,data scientist
+130,data scientist
+131,data scientist
+132,other scientist
+133,other scientist
+134,machine learning engineer
+135,data scientist
+136,data scientist
+137,data scientist
+138,data engineer
+139,data engineer
+140,data scientist
+141,data engineer
+142,analyst
+143,other scientist
+144,data scientist
+145,data engineer
+146,data scientist
+147,data scientist
+148,data engineer
+149,data scientist
+150,analyst
+151,data scientist
+152,data engineer
+153,Data scientist project manager
+154,data scientist
+155,data scientist
+156,data scientist
+157,other scientist
+158,data scientist
+159,data scientist
+160,data scientist
+161,data scientist
+162,data engineer
+163,other scientist
+164,analyst
+165,other scientist
+166,data scientist
+167,other scientist
+168,data scientist
+169,Data scientist project manager
+170,data engineer
+171,analyst
+172,other scientist
+173,analyst
+174,other scientist
+175,data scientist
+176,data scientist
+177,other scientist
+178,other scientist
+179,data scientist
+180,analyst
+181,machine learning engineer
+182,data scientist
+183,data scientist
+184,analyst
+185,data scientist
+186,other scientist
+187,machine learning engineer
+188,data scientist
+189,data engineer
+190,other scientist
+191,na
+192,other scientist
+193,machine learning engineer
+194,other scientist
+195,data engineer
+196,analyst
+197,other scientist
+198,other scientist
+199,machine learning engineer
+200,Data scientist project manager
+201,data engineer
+202,other scientist
+203,other scientist
+204,other scientist
+205,data engineer
+206,data scientist
+207,data scientist
+208,data scientist
+209,analyst
+210,other scientist
+211,data scientist
+212,analyst
+213,Data scientist project manager
+214,data engineer
+215,data scientist
+216,analyst
+217,data scientist
+218,analyst
+219,data scientist
+220,data scientist
+221,data scientist
+222,analyst
+223,other scientist
+224,analyst
+225,analyst
+226,data scientist
+227,data scientist
+228,analyst
+229,data scientist
+230,data engineer
+231,data scientist
+232,data scientist
+233,data analitics
+234,other scientist
+235,data engineer
+236,data engineer
+237,analyst
+238,data scientist
+239,analyst
+240,data scientist
+241,data scientist
+242,data scientist
+243,data scientist
+244,analyst
+245,other scientist
+246,other scientist
+247,analyst
+248,data engineer
+249,data scientist
+250,data scientist
+251,data scientist
+252,other scientist
+253,Data scientist project manager
+254,data scientist
+255,data scientist
+256,data scientist
+257,data engineer
+258,data scientist
+259,other scientist
+260,analyst
+261,other scientist
+262,analyst
+263,analyst
+264,data scientist
+265,data scientist
+266,data scientist
+267,data engineer
+268,data scientist
+269,data engineer
+270,other scientist
+271,other scientist
+272,data scientist
+273,data scientist
+274,analyst
+275,analyst
+276,machine learning engineer
+277,data scientist
+278,data scientist
+279,data scientist
+280,data scientist
+281,data scientist
+282,data scientist
+283,data scientist
+284,data scientist
+285,analyst
+286,data analitics
+287,data engineer
+288,data scientist
+289,data engineer
+290,other scientist
+291,data scientist
+292,other scientist
+293,analyst
+294,machine learning engineer
+295,analyst
+296,data engineer
+297,data scientist
+298,data engineer
+299,other scientist
+300,na
+301,data engineer
+302,data scientist
+303,data scientist
+304,data scientist
+305,other scientist
+306,analyst
+307,data engineer
+308,data scientist
+309,data engineer
+310,data scientist
+311,data scientist
+312,other scientist
+313,other scientist
+314,data scientist
+315,analyst
+316,na
+317,data engineer
+318,data engineer
+319,data engineer
+320,data scientist
+321,data engineer
+322,analyst
+323,other scientist
+324,analyst
+325,director
+326,data scientist
+327,data scientist
+328,machine learning engineer
+329,analyst
+330,data engineer
+331,other scientist
+332,Data scientist project manager
+333,data analitics
+334,data engineer
+335,analyst
+336,other scientist
+337,other scientist
+338,machine learning engineer
+339,other scientist
+340,data engineer
+341,other scientist
+342,data engineer
+343,machine learning engineer
+344,data scientist
+345,other scientist
+346,Data scientist project manager
+347,data engineer
+348,data scientist
+349,data scientist
+350,data engineer
+351,other scientist
+352,data scientist
+353,data engineer
+354,data scientist
+355,other scientist
+356,other scientist
+357,other scientist
+358,other scientist
+359,analyst
+360,data engineer
+361,data scientist
+362,data scientist
+363,other scientist
+364,other scientist
+365,other scientist
+366,Data scientist project manager
+367,other scientist
+368,other scientist
+369,data engineer
+370,other scientist
+371,other scientist
+372,data scientist
+373,data scientist
+374,na
+375,data scientist
+376,analyst
+377,data scientist
+378,analyst
+379,data engineer
+380,analyst
+381,data modeler
+382,other scientist
+383,data scientist
+384,data engineer
+385,data engineer
+386,data scientist
+387,data analitics
+388,na
+389,data engineer
+390,data scientist
+391,other scientist
+392,other scientist
+393,other scientist
+394,data engineer
+395,data engineer
+396,data scientist
+397,data scientist
+398,data scientist
+399,data scientist
+400,data engineer
+401,data scientist
+402,analyst
+403,director
+404,other scientist
+405,analyst
+406,data engineer
+407,data scientist
+408,other scientist
+409,analyst
+410,data scientist
+411,other scientist
+412,data scientist
+413,other scientist
+414,analyst
+415,other scientist
+416,data scientist
+417,analyst
+418,data engineer
+419,data engineer
+420,data scientist
+421,other scientist
+422,data scientist
+423,data scientist
+424,data scientist
+425,data engineer
+426,data scientist
+427,data scientist
+428,data scientist
+429,machine learning engineer
+430,data scientist
+431,data scientist
+432,other scientist
+433,data scientist
+434,data scientist
+435,data scientist
+436,data scientist
+437,data scientist
+438,data engineer
+439,other scientist
+440,data scientist
+441,na
+442,analyst
+443,data engineer
+444,data engineer
+445,data engineer
+446,data engineer
+447,data scientist
+448,data scientist
+449,data scientist
+450,data scientist
+451,data scientist
+452,data scientist
+453,data scientist
+454,analyst
+455,data scientist
+456,data scientist
+457,data engineer
+458,data scientist
+459,data scientist
+460,data scientist
+461,data scientist
+462,data scientist
+463,data engineer
+464,analyst
+465,data scientist
+466,data scientist
+467,other scientist
+468,analyst
+469,data engineer
+470,director
+471,machine learning engineer
+472,data scientist
+473,data scientist
+474,data scientist
+475,analyst
+476,data engineer
+477,analyst
+478,other scientist
+479,data analitics
+480,Data scientist project manager
+481,analyst
+482,data engineer
+483,data scientist
+484,machine learning engineer
+485,data scientist
+486,data scientist
+487,data scientist
+488,other scientist
+489,machine learning engineer
+490,analyst
+491,data engineer
+492,other scientist
+493,other scientist
+494,data scientist
+495,data engineer
+496,data scientist
+497,data scientist
+498,other scientist
+499,data scientist
+500,data engineer
+501,other scientist
+502,data scientist
+503,data engineer
+504,machine learning engineer
+505,data scientist
+506,data scientist
+507,data scientist
+508,data scientist
+509,other scientist
+510,data engineer
+511,analyst
+512,data engineer
+513,other scientist
+514,data scientist
+515,analyst
+516,analyst
+517,Data scientist project manager
+518,data scientist
+519,data scientist
+520,data engineer
+521,data scientist
+522,data scientist
+523,data engineer
+524,other scientist
+525,data engineer
+526,data engineer
+527,data scientist
+528,data scientist
+529,machine learning engineer
+530,data scientist
+531,other scientist
+532,other scientist
+533,other scientist
+534,other scientist
+535,analyst
+536,analyst
+537,data engineer
+538,analyst
+539,analyst
+540,data scientist
+541,data scientist
+542,other scientist
+543,other scientist
+544,other scientist
+545,other scientist
+546,Data scientist project manager
+547,other scientist
+548,data scientist
+549,data scientist
+550,data engineer
+551,other scientist
+552,analyst
+553,data scientist
+554,data scientist
+555,other scientist
+556,data engineer
+557,other scientist
+558,other scientist
+559,data scientist
+560,analyst
+561,na
+562,analyst
+563,data engineer
+564,analyst
+565,data scientist
+566,analyst
+567,analyst
+568,analyst
+569,data engineer
+570,data engineer
+571,data modeler
+572,data modeler
+573,data scientist
+574,data scientist
+575,Data scientist project manager
+576,other scientist
+577,data engineer
+578,data scientist
+579,analyst
+580,data scientist
+581,other scientist
+582,data scientist
+583,data engineer
+584,data engineer
+585,data scientist
+586,na
+587,data engineer
+588,data analitics
+589,data scientist
+590,data engineer
+591,other scientist
+592,data engineer
+593,data engineer
+594,other scientist
+595,data scientist
+596,other scientist
+597,data scientist
+598,data engineer
+599,data engineer
+600,data engineer
+601,data scientist
+602,data scientist
+603,data engineer
+604,other scientist
+605,data scientist
+606,analyst
+607,director
+608,director
+609,other scientist
+610,analyst
+611,other scientist
+612,data engineer
+613,data scientist
+614,data scientist
+615,data engineer
+616,data scientist
+617,other scientist
+618,analyst
+619,analyst
+620,data scientist
+621,other scientist
+622,other scientist
+623,analyst
+624,other scientist
+625,data scientist
+626,data scientist
+627,data scientist
+628,data engineer
+629,analyst
+630,data engineer
+631,data engineer
+632,analyst
+633,other scientist
+634,data scientist
+635,analyst
+636,other scientist
+637,other scientist
+638,machine learning engineer
+639,analyst
+640,analyst
+641,other scientist
+642,analyst
+643,na
+644,other scientist
+645,other scientist
+646,other scientist
+647,Data scientist project manager
+648,data scientist
+649,data engineer
+650,data scientist
+651,data scientist
+652,data analitics
+653,other scientist
+654,analyst
+655,data engineer
+656,data scientist
+657,data scientist
+658,data scientist
+659,machine learning engineer
+660,data scientist
+661,data scientist
+662,other scientist
+663,analyst
+664,machine learning engineer
+665,data engineer
+666,other scientist
+667,data scientist
+668,other scientist
+669,data engineer
+670,other scientist
+671,data scientist
+672,data scientist
+673,data scientist
+674,data scientist
+675,other scientist
+676,data engineer
+677,data scientist
+678,data scientist
+679,data scientist
+680,machine learning engineer
+681,data scientist
+682,other scientist
+683,analyst
+684,data scientist
+685,data scientist
+686,data scientist
+687,data engineer
+688,data engineer
+689,data scientist
+690,other scientist
+691,data scientist
+692,data scientist
+693,data scientist
+694,analyst
+695,data modeler
+696,Data scientist project manager
+697,analyst
+698,data scientist
+699,data scientist
+700,data scientist
+701,data engineer
+702,data scientist
+703,data engineer
+704,other scientist
+705,data engineer
+706,data engineer
+707,data scientist
+708,data scientist
+709,machine learning engineer
+710,data scientist
+711,other scientist
+712,other scientist
+713,other scientist
+714,data scientist
+715,other scientist
+716,other scientist
+717,analyst
+718,data engineer
+719,analyst
+720,analyst
+721,analyst
+722,data scientist
+723,data scientist
+724,other scientist
+725,other scientist
+726,other scientist
+727,Data scientist project manager
+728,other scientist
+729,other scientist
+730,other scientist
+731,data engineer
+732,machine learning engineer
+733,analyst
+734,data scientist
+735,data engineer
+736,data scientist
+737,other scientist
+738,data engineer
+739,other scientist
+740,data scientist
+741,other scientist
