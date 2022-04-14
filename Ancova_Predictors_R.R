@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 library('rcompanion')
 library('car')
 library('effects')
@@ -86,6 +87,8 @@ ANCOVA = lm(dataLocation.plot ~ google_an + Sector*google_an, data = dataKeep2)
 anova(ANCOVA)
 
 =======
+=======
+>>>>>>> Stashed changes
 library('rcompanion')
 library('car')
 library('effects')
@@ -172,5 +175,8 @@ anova(ANCOVA)
 ANCOVA = lm(dataLocation.plot ~ google_an + Sector*google_an, data = dataKeep2)
 anova(ANCOVA)
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 # No significants in any of the Ancovas. Having any of the these skills are not impacted by the sector or location for any company.
