@@ -23,4 +23,7 @@ https://github.com/Kimmieli/Final-Project-DataScience-Salaries
 > ![Ownership](https://user-images.githubusercontent.com/90582457/162350408-f9f52300-5c33-4bf6-9762-12a5bf56d045.png)
 ![Rplot01](https://user-images.githubusercontent.com/90582457/162350572-3305e3b7-0bb0-46bc-8ca9-2a36a5ab8a38.png)
 
-
+## Tableau links to view Visuals of all assumptions
+- https://public.tableau.com/views/FinalProjectgraphs2/Ratingvs_Salary?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+- https://public.tableau.com/shared/BFKRQC7PG?:display_count=n&:origin=viz_share_link
+- https://public.tableau.com/views/AvgSalaryperState_16488652442770/Sheet12?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
